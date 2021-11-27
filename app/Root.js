@@ -22,7 +22,7 @@ const Home = ({navigation}) => {
         <Button
           color="#006400"
           size={16}
-          title="Go To Page 02"
+          title="START"
           onPress={() => navigation.navigate('page2')}
           type="outline"
         />
@@ -90,9 +90,9 @@ const styles = StyleSheet.create({
   },
   button1: {
     marginTop: -115,
-    marginLeft: 130,
+    marginLeft: 160,
     marginRight: 40,
-    width: 125,
+    width: 65,
     height: 40,
     alignItems: 'center',
     backgroundColor: 'white',
