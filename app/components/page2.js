@@ -17,14 +17,14 @@ const page2 = ({navigation}) => {
         <Button
           color="#006400"
           title="Cholesterol"
-          //onPress={() => navigation.popToTop()}
+          onPress={() => navigation.navigate('page3')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="Presser"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page3')}
         />
       </View>
       <View style={styles.button}>
