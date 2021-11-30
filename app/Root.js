@@ -3,6 +3,7 @@ import {View, Text, StyleSheet, Button, Image} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import page2 from './components/page2';
+import page3 from './components/page3';
 
 const Home = ({navigation}) => {
   return (
@@ -53,6 +54,7 @@ class App extends Component {
             options={{title: 'WELCOME'}}
           />
           <Stack.Screen name="page2" component={page2} />
+          <Stack.Screen name="page3" component={page3} />
         </Stack.Navigator>
       </NavigationContainer>
     );
