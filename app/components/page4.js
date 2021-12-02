@@ -37,14 +37,6 @@ const page4 = ({navigation}) => {
         <Button
           fontColor="#000000"
           color="#306754"
-          title="Next"
-          //onPress={() => navigation.navigate('page2')}
-        />
-      </View>
-      <View style={styles.button2}>
-        <Button
-          fontColor="#000000"
-          color="#306754"
           title="Back"
           //onPress={() => navigation.navigate('page2')}
         />
@@ -107,19 +99,10 @@ const styles = StyleSheet.create({
     elevation: 8,
     backgroundColor: '#033E3E',
     borderRadius: 10,
-    width: 100,
-  },
-  button2: {
-    alignItems: 'flex-end',
-    fontWeight: 'bold',
-    fontColor: '#000000',
-    marginTop: -50,
-    fontSize: 20,
-    elevation: 8,
-    backgroundColor: '#033E3E',
-    borderRadius: 10,
-    width: 100,
-    marginLeft: 330,
+    width: 90,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+    marginLeft: -5,
   },
   shape_container1: {
     height: 150,
