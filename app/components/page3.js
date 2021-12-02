@@ -45,7 +45,7 @@ const page3 = ({navigation}) => {
           fontColor="#000000"
           color="#306754"
           title="Back"
-          onPress={() => navigation.navigate('page2')}
+          onPress={() => navigation.navigate('Home')}
         />
       </View>
     </View>
