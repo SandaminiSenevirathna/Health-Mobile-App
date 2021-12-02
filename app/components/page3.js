@@ -9,35 +9,35 @@ const page3 = ({navigation}) => {
         <Button
           color="#006400"
           title="0  -  18"
-          // onPress={() => navigation.goBack()}
+          onPress={() => navigation.navigate('page2')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="18  -  30"
-          //onPress={() => navigation.popToTop()}
+          onPress={() => navigation.navigate('page2')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="30  -  50"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page2')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="50  -  70"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page2')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="70  -  Above"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page2')}
         />
       </View>
       <View style={styles.button1}>

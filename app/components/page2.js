@@ -10,21 +10,21 @@ const page2 = ({navigation}) => {
         <Button
           color="#006400"
           title="Diabetic"
-          onPress={() => navigation.navigate('page3')}
+          onPress={() => navigation.navigate('page4')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="Cholesterol"
-          onPress={() => navigation.navigate('page3')}
+          //onPress={() => navigation.navigate('page3')}
         />
       </View>
       <View style={styles.button}>
         <Button
           color="#006400"
           title="Presser"
-          onPress={() => navigation.navigate('page3')}
+          //onPress={() => navigation.navigate('page3')}
         />
       </View>
       <View style={styles.button}>
@@ -38,7 +38,7 @@ const page2 = ({navigation}) => {
         <Button
           color="#306754"
           title="Back"
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('page3')}
         />
       </View>
     </View>

@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import page2 from './components/page2';
 import page3 from './components/page3';
+import page4 from './components/page4';
 
 const Home = ({navigation}) => {
   return (
@@ -24,7 +25,7 @@ const Home = ({navigation}) => {
           color="#006400"
           size={16}
           title="START"
-          onPress={() => navigation.navigate('page2')}
+          onPress={() => navigation.navigate('page3')}
           type="outline"
         />
       </View>
@@ -55,6 +56,7 @@ class App extends Component {
           />
           <Stack.Screen name="page2" component={page2} />
           <Stack.Screen name="page3" component={page3} />
+          <Stack.Screen name="page4" component={page4} />
         </Stack.Navigator>
       </NavigationContainer>
     );
