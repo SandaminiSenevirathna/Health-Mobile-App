@@ -5,6 +5,50 @@ const page4 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <Text style={styles.Text1}> Select Your Diabetic Level </Text>
+      <View style={styles.button}>
+        <Button
+          color="#006400"
+          title="Below 70"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
+      <View style={styles.button}>
+        <Button
+          color="#006400"
+          title="70  -  100"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
+      <View style={styles.button}>
+        <Button
+          color="#006400"
+          title="100  -  200"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
+      <View style={styles.button}>
+        <Button
+          color="#006400"
+          title="200  -   Above"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
+      <View style={styles.button1}>
+        <Button
+          fontColor="#000000"
+          color="#306754"
+          title="Next"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
+      <View style={styles.button2}>
+        <Button
+          fontColor="#000000"
+          color="#306754"
+          title="Back"
+          //onPress={() => navigation.navigate('page2')}
+        />
+      </View>
       <View style={styles.shape_container1}>
         <View style={styles.rectangle} />
       </View>
@@ -40,6 +84,43 @@ const styles = StyleSheet.create({
     lineHeight: 40,
     paddingLeft: 45,
   },
+  button: {
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    margin: 30,
+    fontSize: 15,
+    elevation: 8,
+    backgroundColor: '#254117',
+    borderRadius: 20,
+    marginLeft: 75,
+    width: 275,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+  },
+  button1: {
+    alignItems: 'flex-start',
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    margin: 20,
+    marginTop: 10,
+    fontSize: 20,
+    elevation: 8,
+    backgroundColor: '#033E3E',
+    borderRadius: 10,
+    width: 100,
+  },
+  button2: {
+    alignItems: 'flex-end',
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    marginTop: -50,
+    fontSize: 20,
+    elevation: 8,
+    backgroundColor: '#033E3E',
+    borderRadius: 10,
+    width: 100,
+    marginLeft: 330,
+  },
   shape_container1: {
     height: 150,
     alignItems: 'flex-start',
@@ -47,7 +128,7 @@ const styles = StyleSheet.create({
   },
   rectangle: {
     width: 120 * 2,
-    height: 1300,
+    height: 1800,
     backgroundColor: '#6CC417',
     opacity: 0.3,
   },
@@ -56,32 +137,27 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   circle: {
-    marginTop: -135,
+    marginTop: -800,
     width: 120,
     height: 120,
     borderRadius: 120 / 2,
-    borderColor: '#438D80',
-    borderWidth: 5,
     backgroundColor: '#4E8975',
     opacity: 0.3,
   },
   circle1: {
-    marginTop: -100,
+    marginTop: -500,
     width: 120,
     height: 120,
     borderRadius: 120 / 2,
-    borderColor: '#438D80',
-    borderWidth: 5,
     backgroundColor: '#4E8975',
     opacity: 0.3,
   },
   circle2: {
-    marginTop: 90,
-    width: 160,
-    height: 160,
-    borderRadius: 160 / 2,
+    marginTop: -300,
+    width: 200,
+    height: 200,
+    borderRadius: 200 / 2,
     borderColor: '#438D80',
-    borderWidth: 5,
     backgroundColor: '#4E8975',
     opacity: 0.3,
   },
@@ -90,22 +166,18 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
   },
   circle3: {
-    marginTop: -600,
+    marginTop: -1200,
     width: 220,
     height: 220,
     borderRadius: 220 / 2,
-    borderColor: '#438D80',
-    borderWidth: 5,
     backgroundColor: '#4E8975',
     opacity: 0.3,
   },
   circle4: {
-    marginTop: -300,
+    marginTop: -800,
     width: 160,
     height: 160,
     borderRadius: 160 / 2,
-    borderColor: '#438D80',
-    borderWidth: 5,
     backgroundColor: '#4E8975',
     opacity: 0.3,
   },
