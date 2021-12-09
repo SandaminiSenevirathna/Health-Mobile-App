@@ -13,6 +13,14 @@ const page9 = ({navigation}) => {
           //onPress={() => navigation.navigate('page5')}
         />
       </View>
+      <View style={styles.button}>
+        <Button
+          color="#006400"
+          fontColor="#000000"
+          title="200  -  239"
+          //onPress={() => navigation.navigate('page5')}
+        />
+      </View>
     </View>
   );
 };
