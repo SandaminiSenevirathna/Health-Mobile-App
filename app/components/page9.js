@@ -26,7 +26,7 @@ const page9 = ({navigation}) => {
           color="#006400"
           fontColor="#000000"
           title="Above 240"
-          //onPress={() => navigation.navigate('page5')}
+          onPress={() => navigation.navigate('page12')}
         />
       </View>
       <View style={styles.button1}>
