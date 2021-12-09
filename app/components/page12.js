@@ -9,6 +9,16 @@ const page12 = ({navigation}) => {
         <Image source={require('../assets/images/highscare.png')} />
       </View>
       <Text style={styles.Text1}> Above 240</Text>
+      <Text style={styles.Text2}> * Your cholesterol level is high. </Text>
+      <Text style={styles.Text3}> * Consult your doctor. </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Avoid eating foods which contains cholesterol.{' '}
+      </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Your body needs exercises at least one hour per day.{' '}
+      </Text>
     </View>
   );
 };
@@ -33,6 +43,25 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 270,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginTop: 50,
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
   },
 });
 export default page12;
