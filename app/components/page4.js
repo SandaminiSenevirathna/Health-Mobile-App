@@ -30,7 +30,7 @@ const page4 = ({navigation}) => {
         <Button
           color="#006400"
           title="200 - Above"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page8')}
         />
       </View>
       <View style={styles.button1}>
