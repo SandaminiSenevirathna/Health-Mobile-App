@@ -19,6 +19,14 @@ const page8 = ({navigation}) => {
       <Text style={styles.Text6}> * Hydrate. </Text>
       <Text style={styles.Text7}> * Get herbal extracts. </Text>
       <Text style={styles.Text8}> * Consult your doctor. </Text>
+      <View style={styles.button1}>
+        <Button
+          fontColor="#000000"
+          color="#306754"
+          title="Back"
+          onPress={() => navigation.navigate('page4')}
+        />
+      </View>
     </View>
   );
 };
@@ -115,6 +123,20 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
+  },
+  button1: {
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    margin: 15,
+    marginTop: 10,
+    fontSize: 20,
+    marginLeft: -1,
+    elevation: 8,
+    backgroundColor: '#033E3E',
+    borderRadius: 20,
+    width: 190,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
   },
 });
 export default page8;
