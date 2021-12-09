@@ -15,6 +15,14 @@ const page10 = ({navigation}) => {
         * You have a normal cholesterol level .{' '}
       </Text>
       <Text style={styles.Text4}> * Eats healthy foods. </Text>
+      <View style={styles.button1}>
+        <Button
+          fontColor="#000000"
+          color="#306754"
+          title="Back"
+          onPress={() => navigation.navigate('page9')}
+        />
+      </View>
     </View>
   );
 };
@@ -67,6 +75,20 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
+  },
+  button1: {
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    margin: 15,
+    marginTop: 10,
+    fontSize: 20,
+    marginLeft: -1,
+    elevation: 8,
+    backgroundColor: '#033E3E',
+    borderRadius: 20,
+    width: 190,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
   },
 });
 export default page10;
