@@ -5,6 +5,9 @@ const page12 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <View />
+      <View style={styles.Cho3}>
+        <Image source={require('../assets/images/highscare.png')} />
+      </View>
       <Text style={styles.Text1}> Above 240</Text>
     </View>
   );
@@ -14,6 +17,14 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
+  Cho3: {
+    width: 85,
+    height: 45,
+    marginTop: 110,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingLeft: 130,
+  },
   Text1: {
     alignItems: 'center',
     fontSize: 36,
@@ -21,7 +32,7 @@ const styles = StyleSheet.create({
     color: 'black',
     letterSpacing: 0.34,
     lineHeight: 40,
-    marginLeft: 250,
+    marginLeft: 270,
   },
 });
 export default page12;
