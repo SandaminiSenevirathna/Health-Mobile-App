@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     marginBottom: 50,
     letterSpacing: 0.34,
     lineHeight: 40,
-    paddingLeft: 225,
+    paddingLeft: 245,
   },
   Text2: {
     alignItems: 'center',
