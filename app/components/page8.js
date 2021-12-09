@@ -12,6 +12,13 @@ const page8 = ({navigation}) => {
         <Image source={require('../assets/images/sugar.png')} />
       </View>
       <Text style={styles.Text1}> 200 To Above</Text>
+      <Text style={styles.Text2}> * You are in a red zone. </Text>
+      <Text style={styles.Text3}> * Maintain a healthy weight. </Text>
+      <Text style={styles.Text4}> * Control portion size. </Text>
+      <Text style={styles.Text5}> * Exercise regularly. </Text>
+      <Text style={styles.Text6}> * Hydrate. </Text>
+      <Text style={styles.Text7}> * Get herbal extracts. </Text>
+      <Text style={styles.Text8}> * Consult your doctor. </Text>
     </View>
   );
 };
@@ -39,11 +46,75 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     fontSize: 36,
     color: 'black',
-    marginTop: -220,
+    marginTop: -240,
     marginBottom: 50,
     letterSpacing: 0.34,
     lineHeight: 40,
-    paddingLeft: 225,
+    paddingLeft: 265,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginTop: 20,
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text4: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text5: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text6: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text7: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text8: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
   },
 });
 export default page8;
