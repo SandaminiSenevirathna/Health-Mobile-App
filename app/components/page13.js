@@ -33,6 +33,13 @@ const page13 = ({navigation}) => {
           //onPress={() => navigation.navigate('page5')}
         />
       </View>
+      <View style={styles.button1}>
+        <Button
+          color="#306754"
+          title="Back"
+          onPress={() => navigation.navigate('page2')}
+        />
+      </View>
     </View>
   );
 };
@@ -63,6 +70,21 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     paddingLeft: 20,
     paddingRight: 20,
+  },
+  button1: {
+    alignItems: 'flex-start',
+    fontWeight: 'bold',
+    fontColor: '#000000',
+    margin: 20,
+    marginTop: 10,
+    fontSize: 20,
+    elevation: 8,
+    backgroundColor: '#033E3E',
+    borderRadius: 10,
+    width: 90,
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+    marginLeft: -5,
   },
 });
 export default page13;
