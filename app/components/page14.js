@@ -8,7 +8,20 @@ const page14 = ({navigation}) => {
       <View style={styles.pre1}>
         <Image source={require('../assets/images/scare.png')} />
       </View>
-      <Text style={styles.Text1}> 90-120 / 60-80</Text>
+      <Text style={styles.Text1}> 90-120 / 60-80 </Text>
+      <Text style={styles.Text2}> * Use more salt </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        Experts usually recommend limiting salt in your diet.Because sodium can
+        raise blood pressure.{' '}
+      </Text>
+      <Text style={styles.Text4}> * Drink more water. </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        Fluids increase blood volume and help prevent dehydration, both of which
+        are important in treating hypotension.{' '}
+      </Text>
+      <Text style={styles.Text4}> * Wear compression stockings. </Text>
       <View style={styles.button1}>
         <Button
           fontColor="#000000"
@@ -44,11 +57,41 @@ const styles = StyleSheet.create({
   Text1: {
     alignItems: 'center',
     fontSize: 36,
-    marginTop: -20,
+    marginTop: -140,
     color: 'black',
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 250,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginTop: 45,
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 20,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+  },
+  Text4: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginTop: 20,
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
   },
   button1: {
     fontWeight: 'bold',
