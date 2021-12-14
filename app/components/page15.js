@@ -9,6 +9,17 @@ const page15 = ({navigation}) => {
         <Image source={require('../assets/images/happy.png')} />
       </View>
       <Text style={styles.Text1}> 120 / 80</Text>
+      <Text style={styles.Text4}>
+        {' '}
+        * You have a normal blood presser level.{' '}
+      </Text>
+      <Text style={styles.Text3}> * Continue Your Health Plan. </Text>
+      <Text style={styles.Text3}> * Continue Your exercise plan. </Text>
+      <Text style={styles.Text3}> * Lose excess weight. </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Put the brakes on smoking and drinking.{' '}
+      </Text>
       <View style={styles.button1}>
         <Button
           fontColor="#000000"
@@ -36,7 +47,7 @@ const styles = StyleSheet.create({
   pre2: {
     width: 85,
     height: 45,
-    marginTop: 110,
+    marginTop: 80,
     alignItems: 'center',
     justifyContent: 'center',
     paddingLeft: 130,
@@ -49,6 +60,27 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 250,
+  },
+  Text4: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+    marginTop: 50,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
   },
   button1: {
     fontWeight: 'bold',
