@@ -5,6 +5,9 @@ const page14 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <View />
+      <View style={styles.pre1}>
+        <Image source={require('../assets/images/scare.png')} />
+      </View>
       <Text style={styles.Text1}> 90-120 / 60-80</Text>
       <View style={styles.button1}>
         <Button
@@ -29,6 +32,14 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     backgroundColor: '#FFFFFF',
+  },
+  Cho3: {
+    width: 85,
+    height: 45,
+    marginTop: 110,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingLeft: 130,
   },
   Text1: {
     alignItems: 'center',
