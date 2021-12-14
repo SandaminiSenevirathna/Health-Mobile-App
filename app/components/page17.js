@@ -5,6 +5,9 @@ const page17 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <View />
+      <View style={styles.pre4}>
+        <Image source={require('../assets/images/highscare.png')} />
+      </View>
       <Text style={styles.Text1}> Above 140 / Above 90</Text>
       <View style={styles.button1}>
         <Button
@@ -29,6 +32,14 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     backgroundColor: '#FFFFFF',
+  },
+  pre4: {
+    width: 85,
+    height: 45,
+    marginTop: 110,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingLeft: 130,
   },
   Text1: {
     alignItems: 'center',
