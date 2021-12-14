@@ -9,6 +9,14 @@ const page17 = ({navigation}) => {
         <Image source={require('../assets/images/highscare.png')} />
       </View>
       <Text style={styles.Text1}> Above 140 / Above 90</Text>
+      <Text style={styles.Text3}> * You are in a dangerous level. </Text>
+      <Text style={styles.Text2}> * Quit smoking. </Text>
+      <Text style={styles.Text2}> * Cut back on caffeine. </Text>
+      <Text style={styles.Text2}> * Reduce your stress. </Text>
+      <Text style={styles.Text2}>
+        {' '}
+        * Monitor your blood pressure at home and see your doctor regularly.{' '}
+      </Text>
       <View style={styles.button1}>
         <Button
           fontColor="#000000"
@@ -43,12 +51,34 @@ const styles = StyleSheet.create({
   },
   Text1: {
     alignItems: 'center',
-    fontSize: 36,
-    marginTop: -20,
+    fontSize: 32,
+    marginTop: -40,
     color: 'black',
     letterSpacing: 0.34,
     lineHeight: 40,
-    marginLeft: 250,
+    marginLeft: 253,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+    marginTop: 10,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+    marginTop: 30,
   },
   button1: {
     fontWeight: 'bold',
