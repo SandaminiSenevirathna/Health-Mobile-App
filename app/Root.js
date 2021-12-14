@@ -67,22 +67,86 @@ class App extends Component {
             component={Home}
             options={{title: 'WELCOME'}}
           />
-          <Stack.Screen name="page2" component={page2} />
-          <Stack.Screen name="page3" component={page3} />
-          <Stack.Screen name="page4" component={page4} />
-          <Stack.Screen name="page5" component={page5} />
-          <Stack.Screen name="page6" component={page6} />
-          <Stack.Screen name="page7" component={page7} />
-          <Stack.Screen name="page8" component={page8} />
-          <Stack.Screen name="page9" component={page9} />
-          <Stack.Screen name="page10" component={page10} />
-          <Stack.Screen name="page11" component={page11} />
-          <Stack.Screen name="page12" component={page12} />
-          <Stack.Screen name="page13" component={page13} />
-          <Stack.Screen name="page14" component={page14} />
-          <Stack.Screen name="page15" component={page15} />
-          <Stack.Screen name="page16" component={page16} />
-          <Stack.Screen name="page17" component={page17} />
+          <Stack.Screen
+            name="page2"
+            component={page2}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page3"
+            component={page3}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page4"
+            component={page4}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page5"
+            component={page5}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page6"
+            component={page6}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page7"
+            component={page7}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page8"
+            component={page8}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page9"
+            component={page9}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page10"
+            component={page10}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page11"
+            component={page11}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page12"
+            component={page12}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page13"
+            component={page13}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page14"
+            component={page14}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page15"
+            component={page15}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page16"
+            component={page16}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page17"
+            component={page17}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     );
