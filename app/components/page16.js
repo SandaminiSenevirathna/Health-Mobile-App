@@ -9,6 +9,18 @@ const page16 = ({navigation}) => {
         <Image source={require('../assets/images/high.png')} />
       </View>
       <Text style={styles.Text1}> 120-139 / 80-89</Text>
+      <Text style={styles.Text3}> * You are in a risk level. </Text>
+      <Text style={styles.Text2}>
+        {' '}
+        * Lose extra pounds and watch your waistline.{' '}
+      </Text>
+      <Text style={styles.Text2}> * Exercise regularly. </Text>
+      <Text style={styles.Text2}> * Eat a healthy diet. </Text>
+      <Text style={styles.Text2}> * Reduce sodium in your diet. </Text>
+      <Text style={styles.Text2}>
+        {' '}
+        * Limit the amount of alcohol you drink.{' '}
+      </Text>
       <View style={styles.button1}>
         <Button
           fontColor="#000000"
@@ -49,6 +61,27 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 250,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontFamily: 'times new roman- Italic',
+    fontSize: 24,
+    color: 'black',
+    marginBottom: 5,
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginLeft: 10,
+    marginTop: 50,
   },
   button1: {
     fontWeight: 'bold',
