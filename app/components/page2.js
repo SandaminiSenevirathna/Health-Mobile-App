@@ -31,7 +31,7 @@ const page2 = ({navigation}) => {
         <Button
           color="#006400"
           title="Common Health Knowledge"
-          //onPress={() => navigation.push('page2')}
+          onPress={() => navigation.navigate('page18')}
         />
       </View>
       <View style={styles.button}>

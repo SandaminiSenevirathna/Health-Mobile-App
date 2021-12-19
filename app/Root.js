@@ -18,6 +18,7 @@ import page14 from './components/page14';
 import page15 from './components/page15';
 import page16 from './components/page16';
 import page17 from './components/page17';
+import page18 from './components/page18';
 
 const Home = ({navigation}) => {
   return (
@@ -145,6 +146,11 @@ class App extends Component {
           <Stack.Screen
             name="page17"
             component={page17}
+            options={{title: 'Be Healthy , Be Happy'}}
+          />
+          <Stack.Screen
+            name="page18"
+            component={page18}
             options={{title: 'Be Healthy , Be Happy'}}
           />
         </Stack.Navigator>
