@@ -19,14 +19,6 @@ const page11 = ({navigation}) => {
         * Check your cholesterol level ones a month.{' '}
       </Text>
       <Text style={styles.Text3}> * Pay attention to your meals. </Text>
-      <View style={styles.button1}>
-        <Button
-          fontColor="#000000"
-          color="#306754"
-          title="Back"
-          onPress={() => navigation.navigate('page9')}
-        />
-      </View>
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -77,20 +69,6 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
-  },
-  button1: {
-    fontWeight: 'bold',
-    fontColor: '#000000',
-    margin: 15,
-    marginTop: 10,
-    fontSize: 20,
-    marginLeft: -1,
-    elevation: 8,
-    backgroundColor: '#033E3E',
-    borderRadius: 20,
-    width: 190,
-    paddingVertical: 20,
-    paddingHorizontal: 15,
   },
   button2: {
     fontWeight: 'bold',
