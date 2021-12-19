@@ -1,18 +1,18 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const page2 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <Text style={styles.Text1}> What Do You Want </Text>
       <Text style={styles.Text2}> To Know ? </Text>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="Diabetic"
           onPress={() => navigation.navigate('page4')}
         />
-      </View>
+      </TouchableOpacity>
       <View style={styles.button}>
         <Button
           color="#006400"
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   },
   button: {
     fontWeight: 'bold',
-    fontColor: '#000000',
+    Color: '#000000',
     margin: 25,
     fontSize: 20,
     elevation: 8,
