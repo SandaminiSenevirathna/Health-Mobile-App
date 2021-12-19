@@ -5,7 +5,7 @@ const page18 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <View style={styles.image3}>
-        <Image source={require('../assets/images/scare.png')} />
+        <Image source={require('../assets/images/women3.jpg')} />
       </View>
       <View />
     </View>
@@ -17,12 +17,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFFFFF',
   },
   image3: {
-    width: 85,
-    height: 45,
-    marginTop: 95,
+    marginTop: 180,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingLeft: 120,
+    paddingLeft: 185,
   },
 });
 export default page18;
