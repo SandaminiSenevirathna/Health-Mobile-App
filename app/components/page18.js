@@ -32,7 +32,7 @@ const page18 = ({navigation}) => {
         <Button
           color="#006400"
           title="BLOOD"
-          //onPress={() => navigation.navigate('page13')}
+          onPress={() => navigation.navigate('page22')}
         />
       </View>
       <View />
