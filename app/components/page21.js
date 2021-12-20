@@ -4,9 +4,21 @@ import {View, Text, StyleSheet, Button, Image} from 'react-native';
 const page21 = ({navigation}) => {
   return (
     <View style={styles.view}>
-      <View style={styles.image3}>
-        <Image source={require('../assets/images/women3.jpg')} />
-      </View>
+      <Text style={styles.Text1}> How to protect our brain?. </Text>
+      <Text style={styles.Text3}> * Get regular exercise. </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Control your risk for heart problems.{' '}
+      </Text>
+      <Text style={styles.Text3}> * Manage your blood sugar level. </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Reduce or stop using certain medications.{' '}
+      </Text>
+      <Text style={styles.Text3}>
+        {' '}
+        * Protect against hearing loss and social isolation.{' '}
+      </Text>
       <View />
     </View>
   );
@@ -16,11 +28,21 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
-  image3: {
-    marginTop: 180,
+  Text1: {
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingLeft: 185,
+    fontSize: 26,
+    color: 'black',
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    fontWeight: 'bold',
+  },
+  Text3: {
+    alignItems: 'center',
+    fontSize: 24,
+    color: 'black',
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginTop: 10,
   },
 });
 export default page21;

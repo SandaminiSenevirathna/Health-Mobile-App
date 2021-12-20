@@ -17,14 +17,14 @@ const page18 = ({navigation}) => {
       <View style={styles.button1}>
         <Button
           color="#006400"
-          title="BRAIN"
+          title="HEART"
           onPress={() => navigation.navigate('page20')}
         />
       </View>
       <View style={styles.button2}>
         <Button
           color="#006400"
-          title="HEART"
+          title="BRAIN"
           onPress={() => navigation.navigate('page21')}
         />
       </View>
