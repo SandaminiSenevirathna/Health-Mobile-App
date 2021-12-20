@@ -28,6 +28,13 @@ const page18 = ({navigation}) => {
           //onPress={() => navigation.navigate('page13')}
         />
       </View>
+      <View style={styles.button3}>
+        <Button
+          color="#006400"
+          title="BLOOD"
+          //onPress={() => navigation.navigate('page13')}
+        />
+      </View>
       <View />
     </View>
   );
@@ -59,6 +66,13 @@ const styles = StyleSheet.create({
   },
   button2: {
     marginTop: 75,
+    marginLeft: 60,
+    width: 95,
+    height: 50,
+    alignItems: 'flex-start',
+  },
+  button3: {
+    marginTop: 80,
     marginLeft: 60,
     width: 95,
     height: 50,
