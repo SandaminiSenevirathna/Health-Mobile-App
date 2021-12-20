@@ -4,9 +4,15 @@ import {View, Text, StyleSheet, Button, Image} from 'react-native';
 const page19 = ({navigation}) => {
   return (
     <View style={styles.view}>
-      <View style={styles.image3}>
-        <Image source={require('../assets/images/women3.jpg')} />
-      </View>
+      <Text style={styles.Text1}>
+        {' '}
+        * Maintain a safe distance from others.{' '}
+      </Text>
+      <Text style={styles.Text2}> (At least 1 metre.) </Text>
+      <Text style={styles.Text3}> * Wear a mask in public. </Text>
+      <Text style={styles.Text3}> * Clean your hands often. </Text>
+      <Text style={styles.Text3}> * Get vaccinated when it's your turn. </Text>
+      <Text style={styles.Text3}> * Stay home if you feel unwell. </Text>
       <View />
     </View>
   );
@@ -16,11 +22,28 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFFFFF',
   },
-  image3: {
-    marginTop: 180,
+  Text1: {
     alignItems: 'center',
-    justifyContent: 'center',
-    paddingLeft: 185,
+    fontSize: 24,
+    color: 'black',
+    letterSpacing: 0.34,
+    lineHeight: 40,
+  },
+  Text2: {
+    alignItems: 'center',
+    fontSize: 24,
+    color: 'black',
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginTop: -2,
+  },
+  Text3: {
+    alignItems: 'center',
+    fontSize: 24,
+    color: 'black',
+    letterSpacing: 0.34,
+    lineHeight: 40,
+    marginTop: 10,
   },
 });
 export default page19;
