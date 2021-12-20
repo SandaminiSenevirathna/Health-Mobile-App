@@ -11,7 +11,7 @@ const page18 = ({navigation}) => {
         <Button
           color="#006400"
           title="COVID - 19"
-          //onPress={() => navigation.navigate('page13')}
+          onPress={() => navigation.navigate('page19')}
         />
       </View>
       <View style={styles.button1}>
