@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const page21 = ({navigation}) => {
   return (
