@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   Text1: {
     alignItems: 'center',
     fontSize: 38,
-    color: 'black',
+    color: '#060606',
     marginBottom: 1,
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   Text2: {
     alignItems: 'center',
     fontSize: 38,
-    color: 'black',
+    color: '#060606',
     marginBottom: 1,
     letterSpacing: 0.34,
     lineHeight: 40,

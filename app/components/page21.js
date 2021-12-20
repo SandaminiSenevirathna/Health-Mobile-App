@@ -26,12 +26,12 @@ const page21 = ({navigation}) => {
 const styles = StyleSheet.create({
   view: {
     flex: 1,
-    backgroundColor: 'black',
+    backgroundColor: '#000000',
   },
   Text1: {
     alignItems: 'center',
     fontSize: 26,
-    color: 'white',
+    color: '#FFFFFF',
     letterSpacing: 0.34,
     lineHeight: 40,
     fontWeight: 'bold',
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   Text3: {
     alignItems: 'center',
     fontSize: 24,
-    color: 'white',
+    color: '#FFFFFF',
     letterSpacing: 0.34,
     lineHeight: 40,
     marginTop: 10,

@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   Text1: {
     alignItems: 'center',
     fontSize: 36,
-    color: 'black',
+    color: '#000000',
     marginTop: -220,
     marginBottom: 50,
     letterSpacing: 0.34,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     fontFamily: 'times new roman- Italic',
     marginTop: 20,
     fontSize: 24,
-    color: 'black',
+    color: '#000000',
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   Text3: {
     alignItems: 'center',
     fontSize: 24,
-    color: 'black',
+    color: '#000000',
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   Text4: {
     alignItems: 'center',
     fontSize: 24,
-    color: 'black',
+    color: '#000000',
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
   Text5: {
     alignItems: 'center',
     fontSize: 24,
-    color: 'black',
+    color: '#000000',
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   Text6: {
     alignItems: 'center',
     fontSize: 24,
-    color: 'black',
+    color: '#000000',
     marginBottom: 5,
     letterSpacing: 0.34,
     lineHeight: 40,

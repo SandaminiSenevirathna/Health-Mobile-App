@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   Text1: {
     alignItems: 'center',
     fontSize: 26,
-    color: 'black',
+    color: '#000000',
     letterSpacing: 0.34,
     lineHeight: 40,
     fontWeight: 'bold',
@@ -66,6 +66,6 @@ const styles = StyleSheet.create({
     height: 40,
   },
   submitButtonText: {
-    color: 'white',
+    color: '#FFFFFF',
   },
 });
