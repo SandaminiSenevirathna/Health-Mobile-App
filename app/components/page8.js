@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Diabetesfour from '../screens/dia4.js';
 
 const page8 = ({navigation}) => {
   return (
@@ -12,13 +13,7 @@ const page8 = ({navigation}) => {
         <Image source={require('../assets/images/sugar.png')} />
       </View>
       <Text style={styles.Text1}> 200 To Above</Text>
-      <Text style={styles.Text2}> * You are in a red zone. </Text>
-      <Text style={styles.Text3}> * Maintain a healthy weight. </Text>
-      <Text style={styles.Text4}> * Control portion size. </Text>
-      <Text style={styles.Text5}> * Exercise regularly. </Text>
-      <Text style={styles.Text6}> * Hydrate. </Text>
-      <Text style={styles.Text7}> * Get herbal extracts. </Text>
-      <Text style={styles.Text8}> * Consult your doctor. </Text>
+      <Diabetesfour />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -59,70 +54,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     paddingLeft: 265,
-  },
-  Text2: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginTop: 20,
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text4: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text5: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text6: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text7: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text8: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000S',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
   },
   button2: {
     fontWeight: 'bold',
