@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Cholesterolthree from '../screens/cho3.js';
 
 const page12 = ({navigation}) => {
   return (
@@ -9,16 +10,7 @@ const page12 = ({navigation}) => {
         <Image source={require('../assets/images/highscare.png')} />
       </View>
       <Text style={styles.Text1}> Above 240</Text>
-      <Text style={styles.Text2}> * Your cholesterol level is high. </Text>
-      <Text style={styles.Text3}> * Consult your doctor. </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        * Avoid eating foods which contains cholesterol.{' '}
-      </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        * Your body needs exercises at least one hour per day.{' '}
-      </Text>
+      <Cholesterolthree />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -51,25 +43,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 270,
-  },
-  Text2: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginTop: 50,
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
   },
   button2: {
     fontWeight: 'bold',
