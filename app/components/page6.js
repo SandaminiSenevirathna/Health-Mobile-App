@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Diabetestwo from '../screens/dia2.js';
 
 const page6 = ({navigation}) => {
   return (
@@ -12,15 +13,7 @@ const page6 = ({navigation}) => {
         <Image source={require('../assets/images/health1.png')} />
       </View>
       <Text style={styles.Text1}> 70 - 100 </Text>
-      <Text style={styles.Text2}> * You have a normal blood sugar level. </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        * Track your food , drink and physical activity.{' '}
-      </Text>
-      <Text style={styles.Text4}>
-        {' '}
-        * So you can continue enjoy your healthy life.{' '}
-      </Text>
+      <Diabetestwo />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -61,32 +54,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     paddingLeft: 225,
-  },
-  Text2: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    marginTop: 5,
-    fontSize: 24,
-    color: 'black',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text4: {
-    alignItems: 'center',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
   },
   button2: {
     fontWeight: 'bold',
