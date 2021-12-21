@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
@@ -46,4 +47,12 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
+export default page19;
+*/
+import React from 'react';
+import Mask from '../screens/covid.js';
+
+const page19 = ({navigation}) => {
+  return <Mask />;
+};
 export default page19;
