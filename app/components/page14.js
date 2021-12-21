@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Preone from '../screens/pre1.js';
 
 const page14 = ({navigation}) => {
   return (
@@ -9,19 +10,7 @@ const page14 = ({navigation}) => {
         <Image source={require('../assets/images/scare.png')} />
       </View>
       <Text style={styles.Text1}> 90-120 / 60-80 </Text>
-      <Text style={styles.Text2}> * Use more salt </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        Experts usually recommend limiting salt in your diet.Because sodium can
-        raise blood pressure.{' '}
-      </Text>
-      <Text style={styles.Text4}> * Drink more water. </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        Fluids increase blood volume and help prevent dehydration, both of which
-        are important in treating hypotension.{' '}
-      </Text>
-      <Text style={styles.Text4}> * Wear compression stockings. </Text>
+      <Preone />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -49,41 +38,11 @@ const styles = StyleSheet.create({
   Text1: {
     alignItems: 'center',
     fontSize: 36,
-    marginTop: -140,
+    marginTop: -100,
     color: '#000000',
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 250,
-  },
-  Text2: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginTop: 45,
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 20,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-    marginLeft: 10,
-  },
-  Text4: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginTop: 20,
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
   },
   button2: {
     fontWeight: 'bold',
