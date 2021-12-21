@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
+import Pretwo from '../screens/pre2.js';
 
 const page15 = ({navigation}) => {
   return (
@@ -9,17 +10,7 @@ const page15 = ({navigation}) => {
         <Image source={require('../assets/images/happy.png')} />
       </View>
       <Text style={styles.Text1}> 120 / 80</Text>
-      <Text style={styles.Text4}>
-        {' '}
-        * You have a normal blood presser level.{' '}
-      </Text>
-      <Text style={styles.Text3}> * Continue Your Health Plan. </Text>
-      <Text style={styles.Text3}> * Continue Your exercise plan. </Text>
-      <Text style={styles.Text3}> * Lose excess weight. </Text>
-      <Text style={styles.Text3}>
-        {' '}
-        * Put the brakes on smoking and drinking.{' '}
-      </Text>
+      <Pretwo />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -52,27 +43,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 250,
-  },
-  Text4: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-    marginLeft: 10,
-    marginTop: 50,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-    marginLeft: 10,
   },
   button2: {
     fontWeight: 'bold',
