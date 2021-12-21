@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
@@ -40,4 +41,12 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
+export default page20;
+*/
+import React from 'react';
+import Heart from '../screens/heart.js';
+
+const page20 = ({navigation}) => {
+  return <Heart />;
+};
 export default page20;
