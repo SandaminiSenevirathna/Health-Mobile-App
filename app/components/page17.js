@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
-
+import Prefour from '../screens/pre4.js';
 const page17 = ({navigation}) => {
   return (
     <View style={styles.view}>
@@ -9,14 +9,7 @@ const page17 = ({navigation}) => {
         <Image source={require('../assets/images/highscare.png')} />
       </View>
       <Text style={styles.Text1}> Above 140 / Above 90</Text>
-      <Text style={styles.Text3}> * You are in a dangerous level. </Text>
-      <Text style={styles.Text2}> * Quit smoking. </Text>
-      <Text style={styles.Text2}> * Cut back on caffeine. </Text>
-      <Text style={styles.Text2}> * Reduce your stress. </Text>
-      <Text style={styles.Text2}>
-        {' '}
-        * Monitor your blood pressure at home and see your doctor regularly.{' '}
-      </Text>
+      <Prefour />
       <View style={styles.button2}>
         <Button
           fontColor="#000000"
@@ -49,28 +42,6 @@ const styles = StyleSheet.create({
     letterSpacing: 0.34,
     lineHeight: 40,
     marginLeft: 253,
-  },
-  Text2: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-    marginLeft: 10,
-    marginTop: 10,
-  },
-  Text3: {
-    alignItems: 'center',
-    fontFamily: 'times new roman- Italic',
-    fontSize: 24,
-    color: '#000000',
-    marginBottom: 5,
-    letterSpacing: 0.34,
-    lineHeight: 40,
-    marginLeft: 10,
-    marginTop: 30,
   },
   button2: {
     fontWeight: 'bold',
