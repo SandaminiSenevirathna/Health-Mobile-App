@@ -6,18 +6,18 @@ class Mask extends Component {
     return (
       <View style={styles.container}>
         <ScrollView>
-          <Text style={styles.Text4}> Most Common Symptoms: </Text>
+          <Text style={styles.Text4}> Most Common Symptoms Of Covid-19: </Text>
           <Text style={styles.Text3}> * Fever. </Text>
           <Text style={styles.Text3}> * Cough. </Text>
           <Text style={styles.Text3}> * Tiredness. </Text>
           <Text style={styles.Text3}> * Loss taste or smell. </Text>
-          <Text style={styles.Text4}> Less Common Symptoms: </Text>
+          <Text style={styles.Text4}> Less Common Symptoms of Covid-19: </Text>
           <Text style={styles.Text3}> * Sore throat. </Text>
           <Text style={styles.Text3}> * Headache. </Text>
           <Text style={styles.Text3}> * Aches and pains. </Text>
           <Text style={styles.Text3}> * Diarrhoea. </Text>
           <Text style={styles.Text3}> * Red or irritated eyes. </Text>
-          <Text style={styles.Text4}> Serious Symptoms: </Text>
+          <Text style={styles.Text4}> Serious Symptoms of Covid-19: </Text>
           <Text style={styles.Text3}>
             {' '}
             * Difficulty breathing or shortness of breath.{' '}
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   },
   Text4: {
     alignItems: 'center',
-    fontSize: 26,
+    fontSize: 22,
     color: '#000000',
     letterSpacing: 0.34,
     lineHeight: 40,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   Text1: {
     alignItems: 'center',
-    fontSize: 20,
+    fontSize: 18,
     color: '#000000',
     letterSpacing: 0.34,
     lineHeight: 40,
