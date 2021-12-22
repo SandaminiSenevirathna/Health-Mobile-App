@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 23,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#8de087',
   },
   Text4: {
     alignItems: 'center',
