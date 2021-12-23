@@ -1,45 +1,45 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const page13 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <Text style={styles.Text1}> Select Your Presser Level </Text>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="90 - 120  /  60 - 80"
           onPress={() => navigation.navigate('page14')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="120  /  80"
           onPress={() => navigation.navigate('page15')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="120 - 139  /  80 - 89"
           onPress={() => navigation.navigate('page16')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="Above 140  /  Above 90"
           onPress={() => navigation.navigate('page17')}
         />
-      </View>
-      <View style={styles.button1}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button1}>
         <Button
           color="#306754"
           title="Back"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };

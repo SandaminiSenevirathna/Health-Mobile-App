@@ -1,53 +1,53 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const page3 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <Text style={styles.Text1}> Select Your Age Group </Text>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="0  -  18"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="18  -  30"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="30  -  50"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="50  -  70"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="70  -  Above"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
-      <View style={styles.button1}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button1}>
         <Button
           fontColor="#000000"
           color="#306754"
           title="Back"
           onPress={() => navigation.navigate('Home')}
         />
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };

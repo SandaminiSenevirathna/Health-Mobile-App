@@ -13,34 +13,34 @@ const page2 = ({navigation}) => {
           onPress={() => navigation.navigate('page4')}
         />
       </TouchableOpacity>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="Cholesterol"
           onPress={() => navigation.navigate('page9')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="Presser"
           onPress={() => navigation.navigate('page13')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="Common Health Knowledge"
           onPress={() => navigation.navigate('page18')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#306754"
           title="Back"
           onPress={() => navigation.navigate('page3')}
         />
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     paddingLeft: 20,
     paddingRight: 20,
+    TouchableOpacity: 0.5,
   },
 });
 export default page2;

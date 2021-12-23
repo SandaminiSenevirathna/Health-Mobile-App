@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, Button, Image} from 'react-native';
+import {View, StyleSheet, Button, Image, TouchableOpacity} from 'react-native';
 
 const page18 = ({navigation}) => {
   return (
@@ -7,34 +7,34 @@ const page18 = ({navigation}) => {
       <View style={styles.image3}>
         <Image source={require('../assets/images/women3.jpg')} />
       </View>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           title="COVID - 19"
           onPress={() => navigation.navigate('page19')}
         />
-      </View>
-      <View style={styles.button1}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button1}>
         <Button
           color="#006400"
           title="HEART"
           onPress={() => navigation.navigate('page20')}
         />
-      </View>
-      <View style={styles.button2}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button2}>
         <Button
           color="#006400"
           title="BRAIN"
           onPress={() => navigation.navigate('page21')}
         />
-      </View>
-      <View style={styles.button3}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button3}>
         <Button
           color="#006400"
           title="BLOOD"
           onPress={() => navigation.navigate('page22')}
         />
-      </View>
+      </TouchableOpacity>
       <View />
     </View>
   );

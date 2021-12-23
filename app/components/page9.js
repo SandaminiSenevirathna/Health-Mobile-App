@@ -1,41 +1,41 @@
 import React from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
 const page9 = ({navigation}) => {
   return (
     <View style={styles.view}>
       <Text style={styles.Text1}> Select Your Cholesterol Level </Text>
-      <View style={styles.button}>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           fontColor="#000000"
           title="0  -  200"
           onPress={() => navigation.navigate('page10')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           fontColor="#000000"
           title="200  -  239"
           onPress={() => navigation.navigate('page11')}
         />
-      </View>
-      <View style={styles.button}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
         <Button
           color="#006400"
           fontColor="#000000"
           title="Above 240"
           onPress={() => navigation.navigate('page12')}
         />
-      </View>
-      <View style={styles.button1}>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button1}>
         <Button
           color="#306754"
           title="Back"
           onPress={() => navigation.navigate('page2')}
         />
-      </View>
+      </TouchableOpacity>
     </View>
   );
 };
