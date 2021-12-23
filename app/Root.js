@@ -1,3 +1,4 @@
+//Health Check App
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, Button, Image} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
